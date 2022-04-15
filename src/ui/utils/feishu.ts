@@ -70,6 +70,7 @@ class FeishuToMarkdown {
 
   async determineLineContent (line) {
     const type = getLineType(line._node)
+    // console.log(type)
     switch (type) {
       case 'h1':
         return `# ${line.getText()}`

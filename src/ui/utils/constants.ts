@@ -9,5 +9,5 @@ export const typeMaps = {
   'doc-blockquote__wrapper': 'blockquote',
   'gallery-line': 'image',
   'list-div': 'list',
-  'j-block-container': 'video'
+  'j-block-container': 'block'
 }
