@@ -20,7 +20,7 @@
   "web_accessible_resources": [
     {
       "resources": [ "/js/ui.js" ],
-      "matches": [ "https://*.larksuite.com/*", "https://*.feishu.com/*" ]
+      "matches": [ "https://*.larksuite.com/*", "https://*.feishu.cn/*" ]
     }
   ]
 }
