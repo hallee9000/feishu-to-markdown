@@ -1,0 +1,26 @@
+{
+  "name": "Feishu to markdown",
+  "description": "飞书导出 Markdown。",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "logo-16.png",
+    "48": "logo-48.png",
+    "128": "logo-128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.larksuite.com/*", "https://*.feishu.cn/*"],
+      "js": ["/js/content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "/js/ui.js" ],
+      "matches": [ "https://*.larksuite.com/*", "https://*.feishu.com/*" ]
+    }
+  ]
+}

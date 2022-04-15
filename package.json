@@ -1,0 +1,53 @@
+{
+  "name": "feishu-to-markdown",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "framer-motion": "^6.2.8",
+    "html-to-markdown": "^1.0.0",
+    "jszip": "^3.9.1",
+    "lodash": "^4.17.21",
+    "node-html-markdown": "^1.1.3",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "^17.0.2",
+    "react-feather": "^2.0.9",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.37.0",
+    "@types/chrome": "^0.0.177",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "copy-webpack-plugin": "^10.2.4",
+    "dotenv": "^10.0.0",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.5.5",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
